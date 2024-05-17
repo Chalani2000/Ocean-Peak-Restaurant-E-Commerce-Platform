@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,600&family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+
+    top{
+        width:100%;
+        background-color:#653e0c !important;
+        border-bottom:2px solid #f0f0f0;
+    }
+    .top div{
+        width:1200px;
+        color:#fff;
+        background-color:#5a2e08 !important;
+        font-family:calibri;
+        padding:10px;
+        text-align:right;
+    }
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+:root {
+    --main-color:#ff702a;
+    --text-color:#fff;
+    --bg-color:#000001;
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+*::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+
+}
+.logo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 20px 30px;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    transition: .4s;
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 70px 17%;
+}
+
+.middle{
+	width:auto;
+    height: 500px;
+	border-bottom:2px solid #d35c42;
+    background-repeat: inherit;
+}
+.middle div{
+	width:auto;
+	height: 500px;
+	font-family:calibri;
+}
+.middle div p{
+	width:auto;
+	font-weight:bold;
+	height:500px;
+	color:#cd5844;
+	opacity:0.6;
+	font-size:50px;
+	background-color:#fffefe;
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px 40px;
+    
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f8f5f5;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+    color: #000;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #f59504;
+    color: white;
+    padding: 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+
+    
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #f77f08;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  /* .vertical-line {
+    border-left: 2px solid #ccc; /* Change color as needed */
+    /* height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} */ 
+
+
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+  background-color: #e1671b;
+  }
+
+
+  input[type=submit] {
+    background-color: #e17911;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    align: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: green;
+  
+  }
+
+  .btn_01{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    width:500px;
+  }
+
